@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ArrowRight, Wallet, Globe, Shield, CreditCard, Zap, ChevronDown, Coins, PieChart, Lock, Repeat, Menu, X, Lightbulb, Banknote, CoinsIcon, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube, ChevronUp } from 'lucide-react';
+import {
+  ArrowRight, Wallet, Globe, Shield, CreditCard, Zap, ChevronDown, Coins, PieChart, Lock, Repeat, Menu, X, Lightbulb, Banknote, CoinsIcon, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube, ChevronUp } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
